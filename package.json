@@ -1,0 +1,17 @@
+{
+    "name": "orange-watch",
+    "private": true,
+    "scripts": {
+        "compile": "tsc -b -w -i"
+    },
+    "dependencies": {
+        "typescript": "^4.8.2"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "ts-node": "^10.9.1"
+    },
+    "workspaces": [
+        "packages/*"
+    ]
+}
